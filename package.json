@@ -1,0 +1,17 @@
+{
+  "name": "postcss-bounce",
+  "version": "0.0.0",
+  "description": "PostCSS plugin for spring animation keyframes",
+  "homepage": "http://github.com/prontotype-us/postcss-bounce",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/prontotype-us/postcss-bounce.git"
+  },
+  "scripts": {
+    "build": "coffee --bare -o lib -c src"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "postcss": "^6.0.3"
+  }
+}
